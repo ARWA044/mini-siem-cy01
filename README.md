@@ -6,15 +6,6 @@ A fully functional mini Security Information and Event Management (SIEM) system 
 
 ---
 
-## 👥 Team
-
-| Name | Role |
-|------|------|
-| **Arwa Boudarfa** | n8n workflow architecture, AFD engine, Twilio integration |
-| **Ihssane El Maataoui** | Slack integration, testing & validation, documentation |
-
----
-
 ## 📐 How It Works
 
 The system models attacker behavior as a state machine. Each incoming security log triggers a state transition, and when a full attack chain is detected, simultaneous alerts are sent to both Slack and WhatsApp.
@@ -218,6 +209,15 @@ mini-siem-cy01/
 - **Multi-IP concurrency**: Google Sheets reads are sequential, creating bottlenecks under load.
 
 ---
+
+## 🤝 Collaboration
+
+This project was developed as a team effort by two students from ENSAM Casablanca.
+
+| Name | GitHub |
+|------|--------|
+| **Arwa Boudarfa** | — |
+| **Ihssane El Maataoui** | [@elmaataoui-ihssane](https://github.com/elmaataoui-ihssane) |
 
 ## 📄 License
 
