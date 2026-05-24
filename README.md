@@ -104,7 +104,7 @@ Copy the Sheet ID from its URL and use it as `YOUR_GOOGLE_SHEETS_ID`.
 ### 4. Import the Workflow into n8n
 
 1. Open n8n → **Workflows → Import from File**
-2. Select `workflow_sanitized.json`
+2. Select `workflow.json`
 3. Update the following placeholders in the workflow nodes:
 
 | Placeholder | Where | What to replace with |
