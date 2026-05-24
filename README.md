@@ -190,7 +190,7 @@ We used [Postman](https://www.postman.com) for testing.
 
 ```
 mini-siem-cy01/
-├── workflow_sanitized.json   # n8n workflow (no secrets)
+├── workflow.json   # n8n workflow (no secrets)
 ├── README.md                 # This file
 ├── docs/
 │   └── rapport_CY01.pdf      # Full technical report (French)
