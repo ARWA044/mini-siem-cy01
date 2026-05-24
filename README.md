@@ -98,7 +98,7 @@ Copy the Sheet ID from its URL and use it as `YOUR_GOOGLE_SHEETS_ID`.
 
 1. Create an account at [twilio.com](https://www.twilio.com)
 2. Go to **Messaging → Try it out → Send a WhatsApp message**
-3. Send `join come-steady` to `+14155238886` from WhatsApp
+3. Send the join code shown in your Twilio console to `+14155238886` from WhatsApp
 4. Collect your **Account SID** and **Auth Token** from the Twilio console
 
 ### 4. Import the Workflow into n8n
@@ -182,7 +182,7 @@ priv_escalation→  q2 → q3 🚨    (ALERT: Slack + WhatsApp)
 alert_ack      →  q3 → q0        (SOC acknowledgment)
 ```
 
-We used [Postman](https://www.postman.com) for testing. A collection is available in the `/tests` folder.
+We used [Postman](https://www.postman.com) for testing.
 
 ---
 
@@ -194,8 +194,6 @@ mini-siem-cy01/
 ├── README.md                 # This file
 ├── docs/
 │   └── rapport_CY01.pdf      # Full technical report (French)
-├── tests/
-│   └── postman_collection.json
 └── .gitignore
 ```
 
